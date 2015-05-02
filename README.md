@@ -1,10 +1,10 @@
 # GCDStudy
 GCD samples
 
-dispatch_async
-dispatch_sync
-dispatch_after
-dispatch_once
-dispatch_barrier
-dispatch_group
-dispatch_source
+dispatch_async <br />
+dispatch_sync <br />
+dispatch_after <br />
+dispatch_once <br />
+dispatch_barrier <br />
+dispatch_group <br />
+dispatch_source <br />
