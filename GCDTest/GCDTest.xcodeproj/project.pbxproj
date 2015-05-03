@@ -14,6 +14,7 @@
 		D828557F1AF4D71D0014C3C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D828557E1AF4D71D0014C3C0 /* Images.xcassets */; };
 		D82855821AF4D71D0014C3C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D82855801AF4D71D0014C3C0 /* LaunchScreen.xib */; };
 		D828558E1AF4D71D0014C3C0 /* GCDTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D828558D1AF4D71D0014C3C0 /* GCDTestTests.m */; };
+		D82855981AF4F9B40014C3C0 /* ball.js in Resources */ = {isa = PBXBuildFile; fileRef = D82855971AF4F9B40014C3C0 /* ball.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		D82855871AF4D71D0014C3C0 /* GCDTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D828558C1AF4D71D0014C3C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D828558D1AF4D71D0014C3C0 /* GCDTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDTestTests.m; sourceTree = "<group>"; };
+		D82855971AF4F9B40014C3C0 /* ball.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ball.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		D82855701AF4D71C0014C3C0 /* GCDTest */ = {
 			isa = PBXGroup;
 			children = (
+				D82855971AF4F9B40014C3C0 /* ball.js */,
 				D82855751AF4D71D0014C3C0 /* AppDelegate.h */,
 				D82855761AF4D71D0014C3C0 /* AppDelegate.m */,
 				D82855781AF4D71D0014C3C0 /* ViewController.h */,
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D828557D1AF4D71D0014C3C0 /* Main.storyboard in Resources */,
+				D82855981AF4F9B40014C3C0 /* ball.js in Resources */,
 				D82855821AF4D71D0014C3C0 /* LaunchScreen.xib in Resources */,
 				D828557F1AF4D71D0014C3C0 /* Images.xcassets in Resources */,
 			);
@@ -416,6 +420,7 @@
 				D82855931AF4D71D0014C3C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D82855941AF4D71D0014C3C0 /* Build configuration list for PBXNativeTarget "GCDTestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				D82855961AF4D71D0014C3C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
